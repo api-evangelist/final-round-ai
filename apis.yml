@@ -1,8 +1,16 @@
 aid: final-round-ai
 name: Final Round AI
-description: Final Round AI is a company surfaced as a portfolio company of uncork-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Final Round AI, operated by Pump Labs Inc., is an AI-powered interview-preparation
+  platform used by more than ten million job seekers. Its flagship products are a
+  real-time Interview Copilot that assists candidates during live video interviews
+  (Zoom, Google Meet, Microsoft Teams) and coding assessments (LeetCode, HackerRank,
+  CodeSignal), AI Mock Interviews with instant scoring and feedback, an AI Resume
+  Builder, Auto Apply, and post-interview performance reports. The product is
+  delivered as a web app, a Chrome extension, and a Homebrew-distributed desktop
+  application, and supports 26+ languages. It is a consumer-facing product and does
+  not currently publish a public developer API; this profile captures its identity,
+  distribution, and security surface for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/final-round-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +18,31 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-legal-entity: Pump Labs Inc.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://d12araoe7z5xxk.cloudfront.net/og-images/home-page.jpg
 tags:
 - Company
+- Artificial Intelligence
+- Interview Preparation
+- Career
+- Productivity
+- Consumer
+- Desktop Application
+- Recruiting
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,36 @@ maintainers:
 common:
 - type: Website
   url: https://www.finalroundai.com
+- type: Documentation
+  url: https://www.finalroundai.com/guide
+- type: GettingStarted
+  url: https://www.finalroundai.com/getting-started
+- type: Blog
+  url: https://www.finalroundai.com/blog
+- type: Pricing
+  url: https://www.finalroundai.com/pricing
+- type: SignUp
+  url: https://app.finalroundai.com/sign-in
+- type: Support
+  url: mailto:support@finalroundai.com
+- type: TermsOfService
+  url: https://www.finalroundai.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.finalroundai.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/finalroundai
+- type: Packages
+  url: packages/final-round-ai-packages.yml
+- type: LLMsTxt
+  url: llms/final-round-ai-llms.txt
+- type: Security
+  url: https://www.finalroundai.com/security
+- type: VulnerabilityDisclosure
+  url: security/final-round-ai-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/final-round-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

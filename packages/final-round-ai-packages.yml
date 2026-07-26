@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/finalroundai/homebrew-tap
+note: >-
+  Final Round AI publishes no developer client libraries / SDKs (it exposes no
+  public developer API). The only first-party published package is the Homebrew
+  cask that installs the Final Round desktop interview-copilot application. It is
+  a distributable app, not a client SDK, so no `SDKs` pointer is emitted.
+packages:
+- language: shell
+  registry: homebrew
+  kind: cask
+  name: final-round
+  tap: finalroundai/homebrew-tap
+  url: https://github.com/finalroundai/homebrew-tap/blob/main/Casks/final-round.rb
+  install: brew install --cask finalroundai/homebrew-tap/final-round
+  version: 2.5.0
+  description: AI-powered interview copilot desktop application (macOS arm64 + intel).
+  homepage: https://finalroundai.com
+  official: true

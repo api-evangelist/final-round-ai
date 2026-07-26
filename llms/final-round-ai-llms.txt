@@ -1,0 +1,29 @@
+# Final Round AI
+
+> Final Round AI (operated by Pump Labs Inc.) is an AI-powered interview-preparation platform. Its products help job seekers prepare for and perform in interviews: a real-time Interview Copilot, AI Mock Interviews with scoring, an AI Resume Builder, Auto Apply, and post-interview reports. It is a consumer-facing product and does not publish a public developer API.
+
+## Products
+- [Interview Copilot](https://www.finalroundai.com/): real-time AI assistance during live interviews
+- [AI Mock Interview](https://www.finalroundai.com/): practice interviews with instant scoring and feedback
+- [AI Resume Builder](https://www.finalroundai.com/): resume optimization
+- [Desktop app download](https://www.finalroundai.com/download): Final Round desktop application
+
+## Get started
+- [Getting started guide](https://www.finalroundai.com/getting-started)
+- [User guide](https://www.finalroundai.com/guide)
+- [Sign in](https://app-preview.finalroundai.com/sign-in)
+- [Pricing / subscription](https://www.finalroundai.com/subscription)
+
+## Distribution
+- [Homebrew tap](https://github.com/finalroundai/homebrew-tap): `brew install --cask finalroundai/homebrew-tap/final-round`
+- [Chrome extension](https://chromewebstore.google.com/detail/final-round-ai/lfbbdphejjjanjiohlmkdbapdmfoaeem)
+
+## Content
+- [Blog — The Final Round Blog](https://www.finalroundai.com/blog)
+- [DEV Community profile](https://dev.to/finalroundai)
+
+## Security & legal
+- [Security & vulnerability disclosure](https://www.finalroundai.com/security) (security@finalroundai.com)
+- [Terms of Use](https://www.finalroundai.com/terms-of-use)
+- [Privacy Policy](https://www.finalroundai.com/privacy-policy)
+- [Refund Policy](https://www.finalroundai.com/refund-policy)
